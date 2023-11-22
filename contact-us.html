@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Apple</title>
+    <link rel="icon" href="images/icon.png" type="image/apple-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <a href="index.html">
+                    <img src="images/icon.png" alt="Apple Logo.">
+                </a>
+            </div>
+            <ul class="navbar-links">
+                <li><a href="about-us.html">About Us</a></li>
+                <li class="has-dropdown">
+                    <a href="new-releases.html">New Releases</a>
+                    <ul class="dropdown">
+                        <li><a href="iphone-15.html">iPhone 15</a></li>
+                        <li><a href="ipad-pro.html">iPad Pro</a></li>
+                    </ul>
+                </li>
+                <li><a href="shop.html">Shop</a></li>
+                <li class="current-page"><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <form action="#" method="post" class="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <div class="phone-input">
+                    <select id="area-code" name="area-code">
+                        <option value="1">+353 (Rep. of Ireland)</option>
+                        <option value="44">+44 (United Kingdom)</option>
+                        <option value="1">+1 (United States)</option>
+                    </select>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="interest">Interested in:</label>
+                <select id="interest" name="interest">
+                    <option value="iPhone 15 Pro Max">iPhone 15 Pro Max</option>
+                    <option value="iPhone 15 Pro">iPhone 15 Pro</option>
+                    <option value="iPhone 15 Plus">iPhone 15 Plus</option>
+                    <option value="iPhone 15">iPhone 15</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="comment">Comments:</label>
+                <textarea id="comment" name="comment" rows="4"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+
+
+        <section class="space">
+            <p></p>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-section images">
+            <a href="https://twitter.com/apple"><img src="images/twitter-icon.png" alt="Icon for Twitter App."></a>
+            <a href="https://www.instagram.com/apple/?hl=en"><img src="images/insta-icon.png" alt="Icon for Instagram App."></a>
+            <a href="https://www.tiktok.com/@apple?lang=en"><img src="images/tiktok-icon.png" alt="Icon for TikTok App."></a>
+        </div>
+        <div class="footer-section copyright">
+            <p>&copy; 2023 All rights reserved by Niamh Kennedy | B00158362.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
